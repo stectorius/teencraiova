@@ -13,7 +13,7 @@
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #003366;
-    color: #333;
+    color: #fff; /* white text on blue background */
 }
 
 .introduction {
@@ -22,7 +22,7 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     text-align: center;
-    color:#ffffff
+    color: #ffffff;
 }
 
 .three-rows {
@@ -85,3 +85,89 @@
         margin-top: 0.75rem;
     }
 }
+
+/* Header / navigation shared styles */
+.header img.logo { height: 60px; vertical-align: middle; }
+.header .site-title { margin-left: 15px; vertical-align: middle; }
+.menu { display: none; }
+.menu img.nav-icon { height: 24px; vertical-align: middle; }
+.menu-button { background: transparent; border: none; font-size: 1.1rem; cursor: pointer; }
+
+/* Introduction text rules (used across pages) */
+.introduction h1 { color: #fff; margin: 0 0 0.5rem 0; }
+.introduction p { max-width: 700px; margin: 0 auto; color: #fff; font-size: 1.05em; }
+
+/* Footer */
+.footer { margin-top: 40px; padding: 20px; background: #f5f5f5; text-align: center; color: #222; }
+.footer .contact-item { margin-right: 20px; }
+.footer img { height: 20px; vertical-align: middle; }
+.footer a { text-decoration: none; color: inherit; }
+
+/* Advice previews grid */
+.advice-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.advice-card.preview { padding: 0.75rem; display: block; }
+.advice-card.preview h2 { font-size: 1.05rem; margin-bottom: 0.35rem; }
+.advice-card.preview p { font-size: 0.95rem; color: #444; }
+.advice-link { color: inherit; text-decoration: none; }
+
+/* Ensure card internal text is dark on white backgrounds */
+.advice-card, .event-card { color: #222; }
+
+.resources-list { list-style: none; padding: 0; margin: 0.6rem 0 0 0; }
+.resources-list li { margin: 0.35rem 0; color: #444; }
+
+
+/* Content wrapper used by advice/events pages */
+.content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* General button style (used across pages) */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    background: #007acc;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn:hover { opacity: 0.95; }
+
+/* Advice and Event cards */
+.advice-card,
+.event-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    color: #222;
+}
+
+
+.resources
+{
+    margin-top: 1.5rem;
+    text-align: center;
+    color :white;
+}
+.advice-card h2,
+.event-card h2 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.25rem; color: #111; }
+.advice-card p,
+.event-card p { margin: 0 0 0.6rem 0; color: #444; }
+
+.event-list .event-actions { margin-top: 0.5rem; display: flex; gap: 0.6rem; }
+.event-actions .btn + .btn { margin-left: 0.8rem; }
+
+.resources { margin-top: 1.5rem; text-align: center; }
+.center-actions { text-align: center; margin: 2rem 0; }
+.past-events { margin-top: 1.2rem; }
+
+@media (max-width: 640px) {
+    .event-list .event-card, .advice-card { padding: 1rem; }
+    .event-list .event-actions { flex-direction: column; align-items: stretch; }
+    .event-actions .btn + .btn { margin-left: 0; margin-top: 0.6rem; }
+}
+
