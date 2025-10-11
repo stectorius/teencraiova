@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeenCraiova - Events</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <script src="../main.js" defer></script>
+</head>
+<body class="body">
+    <!--Header-->
+    <header class="header">
+        <img src="../logo.png" alt="TeenCraiova Logo" style="height: 60px; vertical-align: middle;">
+        <span style="margin-left: 15px; vertical-align: middle;">TeenCraiova</span>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <nav id="menu" class="menu" style="display: none;">
+            <a href="home.html" title="Home"><img src="../icons/home.svg" alt="Home" style="height:24px;vertical-align:middle;"></a>
+            <a href="about.html" title="About"><img src="../icons/info.svg" alt="About" style="height:24px;vertical-align:middle;"></a>
+            <a href="services.html" title="Services"><img src="../icons/services.svg" alt="Services" style="height:24px;vertical-align:middle;"></a>
+            <a href="#footer" title="Contact"><img src="../icons/contact.svg" alt="Contact" style="height:24px;vertical-align:middle;"></a>
+            <a href="forum.html" title="Forum"><img src="../icons/forums.svg" alt="Forum" style="height:24px;vertical-align:middle;"></a>
+        </nav>
+    </header>
+    <main>
+        <!-- Events Section -->
+        <section class="introduction" style="padding: 2em 0; text-align: center;">
+            <h1 style="color: #fff;">Upcoming Events</h1>
+            <p style="max-width: 700px; margin: 0 auto; color: #fff; font-size: 1.05em;">
+                Join workshops, meetups and community projects in Craiova. Check details below and sign up to participate.
+            </p>
+        </section>
+
+        <section style="max-width: 900px; margin: 2em auto; padding: 0 1em;">
+            <div class="event-list">
+                <!-- Event 1 -->
+                <article class="event-card">
+                    <h2>Creative Coding Workshop</h2>
+                    <p><strong>Date:</strong> Saturday, 8 November 2025 &nbsp; | &nbsp; <strong>Location:</strong> Youth Center, Str. Example 10</p>
+                    <p>Learn the basics of web development and build a small project. No experience required — bring a laptop if you have one.</p>
+                    <div class="event-actions">
+                        <a class="btn" href="mailto:contact@teencraiova.com?subject=Register%20for%20Creative%20Coding%20Workshop">Sign up</a>
+                        <a class="btn" href="events.html#" style="margin-left:0.8em;">More details</a>
+                    </div>
+                </article>
+
+                <!-- Event 2 -->
+                <article class="event-card">
+                    <h2>Career Paths Panel</h2>
+                    <p><strong>Date:</strong> Wednesday, 19 November 2025 &nbsp; | &nbsp; <strong>Location:</strong> City Library Hall</p>
+                    <p>Meet professionals from technology, arts and education to explore career options and ask practical questions about next steps after high school.</p>
+                    <div class="event-actions">
+                        <a class="btn" href="mailto:contact@teencraiova.com?subject=Register%20for%20Career%20Paths%20Panel">Register</a>
+                        <a class="btn" href="events.html#" style="margin-left:0.8em;">Volunteer</a>
+                    </div>
+                </article>
+
+                <!-- Event 3 -->
+                <article class="event-card">
+                    <h2>Community Clean-up Day</h2>
+                    <p><strong>Date:</strong> Sunday, 30 November 2025 &nbsp; | &nbsp; <strong>Location:</strong> Meeting point: Central Park entrance</p>
+                    <p>Join fellow teens to help keep Craiova clean. Gloves and tools provided. Open to all ages — register so we can plan supplies.</p>
+                    <div class="event-actions">
+                        <a class="btn" href="mailto:contact@teencraiova.com?subject=Register%20for%20Clean-up%20Day">Sign up</a>
+                        <a class="btn" href="events.html#" style="margin-left:0.8em;">Group info</a>
+                    </div>
+                </article>
+
+                <section style="margin-top: 1.2em;">
+                    <h3>Past Events</h3>
+                    <p>See our archive of previous workshops and meetups. If you have photos or a summary from a past event, we'd love to share it — email us.</p>
+                    <div style="text-align:center; margin-top: 1em;">
+                        <a class="btn" href="mailto:contact@teencraiova.com?subject=Share%20Past%20Event">Share a past event</a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer id="footer" class="footer" style="margin-top: 40px; padding: 20px; background: #f5f5f5; text-align: center;">
+        <div>
+            <span style="margin-right: 20px;">
+                <img src="../icons/phone.svg" alt="Phone" style="height:20px;vertical-align:middle;">
+                <a href="tel:+40712345678" style="text-decoration:none; color:inherit;">Phone</a>
+            </span>
+            <span style="margin-right: 20px;">
+                <img src="../icons/email.svg" alt="Email" style="height:20px;vertical-align:middle;">
+                <a href="mailto:contact@teencraiova.com" style="text-decoration:none; color:inherit;">Email</a>
+            </span>
+            <span style="margin-right: 20px;">
+                <img src="../icons/instagram.svg" alt="Instagram" style="height:20px;vertical-align:middle;">
+                <a href="https://instagram.com/teencraiova" target="_blank" style="text-decoration:none; color:inherit;">Instagram</a>
+            </span>
+            <span>
+                <img src="../icons/tiktok.svg" alt="TikTok" style="height:20px;vertical-align:middle;">
+                <a href="https://tiktok.com/@teencraiova" target="_blank" style="text-decoration:none; color:inherit;">TikTok</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
