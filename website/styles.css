@@ -145,6 +145,12 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
     color: #222;
 }
+.coming-soon-card {
+    background: #f0f0f0;
+    border: 2px dashed #ccc;
+    text-align: center;
+    color: #666
+}
 
 
 .resources
@@ -153,6 +159,7 @@
     text-align: center;
     color :white;
 }
+
 .advice-card h2,
 .event-card h2 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.25rem; color: #111; }
 .advice-card p,
