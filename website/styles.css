@@ -116,6 +116,16 @@
 .resources-list { list-style: none; padding: 0; margin: 0.6rem 0 0 0; }
 .resources-list li { margin: 0.35rem 0; color: #444; }
 
+/* Site banner / hero image */
+.banner {
+    width: 100%;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 8px;
+}
+.banner img { width: 100%; height: auto; display: block; }
+
+
 
 /* Content wrapper used by advice/events pages */
 .content {
