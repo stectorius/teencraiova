@@ -96,6 +96,7 @@
 /* Introduction text rules (used across pages) */
 .introduction h1 { color: #fff; margin: 0 0 0.5rem 0; }
 .introduction p { max-width: 700px; margin: 0 auto; color: #fff; font-size: 1.05em; }
+.paragraph { max-width: 700px; margin: 0 auto 1.5rem auto; color: #fff; font-size: 1.05em; line-height: 1.6; }
 
 /* Footer */
 .footer { margin-top: 40px; padding: 20px; background: #f5f5f5; text-align: center; color: #222; }
